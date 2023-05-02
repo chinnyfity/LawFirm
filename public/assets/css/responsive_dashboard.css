@@ -1,0 +1,637 @@
+
+
+/*-------------- Start device screen 1440 --------------*/
+@media screen and (max-width: 1440px) {
+
+    .about-1::before {
+        top: -18%;
+        left: -15%;
+    }
+}
+
+
+
+/*-------------- Start device screen 1366 --------------*/
+
+@media screen and (max-width: 1366px) {
+    .hero-content::after {
+        right: 0;
+    }
+    .crypto-payment::after {
+        bottom: -42%;
+        right: -10%;
+        z-index: -99;
+    }
+    .crypto-payment::before {
+        top: 6%;
+        right: 2%;
+    }
+    .how-it-work-section::before {
+        font-size: 186px;
+        top: -2%;
+    }
+    .testimonial-card .content p {
+        font-size: 22px;
+    }
+}
+
+/*-------------- Start device screen 1024 --------------*/
+
+@media screen and (max-width: 1024px) {
+    .header nav ul li:not(:last-child) {
+        margin-right: 40px;
+    }
+    .btn.trial-btn {
+        min-width: 130px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .hero-content h1{
+        font-size: 50px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .crypto-payment-right {
+        padding-left: 0;
+    }
+    .crypto-payment::before {
+        top: 3%;
+    }
+    .crypto-payment::after {
+        bottom: -48%;
+    }
+    .how-it-work-section::before {
+        font-size: 141px;
+    }
+    .btn-group-area a img {
+        width: 44%;
+    }
+    .btn-group-area a.app-btn-1{
+        margin-right: 10px;
+    }
+    .about-1::before {
+        left: -32%;
+    }
+    .about-1 {
+        padding: 100px 0 50px;
+    }
+    .pricing {
+        padding: 100px 0;
+    }
+    .contect-left {
+        padding-left: 70px;
+    }
+    .contact-form {
+        padding: 40px 30px;
+        border-radius: 35px;
+    }
+    .contact .contact-info li {
+        font-size: 18px;
+    }
+    .contact {
+        padding: 100px 0;
+    }
+    .footer-note {
+        padding: 23px;
+    }
+    
+}
+
+/*-------------- Start device screen 991 --------------*/
+
+@media screen and (max-width: 991px) {
+    .hero-content::after{
+        displays: none;
+        width: 30%;
+    }
+
+    .savings_div .card button{
+        left: 15.2%;
+    }
+
+    .hero-content span {
+        display: inline-block;
+        margin-left: 8px;
+    }
+
+    .alert1{
+        width: 35%;
+    }
+
+    .currency_buttons button{
+        width: 50%;
+    }
+
+    .back_btns span{
+        top: 70%;
+    }
+
+    .about-1 .img-fluid{
+        width: 110%;
+    }
+
+    .slicknav_menu {
+        background: transparent;
+        padding: 0;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_btn {
+        margin: 0;
+        text-shadow: none;
+        background-color: transparent;
+        border: 2px solid #f8fcff;
+        position: absolute;
+        right: 20px;
+        top: 26px;
+    }
+    .slicknav_menu .slicknav_icon {
+        margin: 0;
+    }
+    .slicknav_nav {
+        background: #163049;
+        margin-top: 15px;
+    }
+    .slicknav_nav a {
+        text-transform: capitalize;
+        padding: 8px 20px;
+    }
+    .crypto-payment {
+        padding: 50px 0;
+    }
+    .crypto-payment::before{
+        display: none;
+    }
+    .section-title {
+        margin-bottom: 50px;
+        padding: 0 0px;
+        text-align: left !important;
+    }
+    .crypto-payment::after{display: none;}
+    .benifits {
+        padding: 50px 0;
+    }
+    .benifit-card:first-child {
+        right: 0;
+    }
+    .benifit-card:nth-child(2) {
+        transform: translateY(0);
+    }
+    .benifit-card:last-child {
+        left: 0;
+    }
+    .benifit-card-row {
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .benifit-card {
+        padding: 30px 15px;
+        width: 45%;
+        margin: 15px;
+    }
+    .counter-inner {
+        padding: 25px 10px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .single-counter .counter {
+        font-size: 32px;
+        line-height: 1;
+    }
+    .single-counter {
+        /* width: 25%; */
+        height: auto;
+        padding: 30px 0px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+    .single-counter p {
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: -8px;
+        text-align: center;
+    }
+
+    .single-counter .counter1{
+        font-size: 28px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    a.app-btn-1 img, a.app-btn-2 img{
+        width: 90%;
+    }
+
+    .how-it-work-section::before{
+        display: none;
+    }
+
+    .faq,
+    .guide,
+    .pricing,
+    .about-1,
+    .testimonial,
+    .counter-area {
+        padding: 50px 0;
+    }
+    .how-it-work-section {
+        padding-bottom: 50px;
+    }
+    .testimonial-card .img::after{
+        display: none;
+    }
+
+    .guide img{
+        max-width: 300px;
+        margin-left: -15%;
+    }
+    .contact .section-title,
+    .faq-right .section-title,
+    .guide .section-title {
+        padding: 0;
+        text-align: left !important;
+    }
+    .guide-right {
+        padding-left: 0;
+    }
+    .section-title-style{
+        padding-bottom: 15px !important;
+    }
+    .contect-left {
+        padding-left: 0;
+    }
+    .footer-note p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .top-footer ul li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .footer {
+        padding-top: 30px;
+    }
+    .top-footer {
+        padding: 30px 0;
+    }
+
+    .section-title.section-title1{text-align: text !important; font-size: 37px; line-height: 48px !important;}
+}
+
+/*-------------- Start device screen 768 --------------*/
+
+@media screen and (max-width: 768px) {
+    .counter-inner {
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 25px;
+    }
+    .single-counter {
+        width: 80px;
+        height: 80px;
+    }
+
+    .goback{
+        position: absolute;
+        right: 8px;
+        top: 5px;
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .captions_div{
+        font-size: 15px;
+      }
+
+    .blog-post-img img{
+        height: 33vw;
+    }
+
+    .loan_details{
+        font-size: 16px;
+    }      
+    .loan_details a{
+        font-size: 18px !important;
+    }
+
+    .savings_div .card button{
+        left: 25%;
+    }
+
+    select.wallet_option{
+        transform: translateX(97%);
+    }
+
+    .wallet-footer1{
+        /* top: -35px !important; */
+    }
+
+    .alert1{
+        width: 87%;
+    }
+
+    .currency_buttons button{
+        width: 75%;
+    }
+
+    .nav-header {
+        width: 11.3rem !important;
+    }
+
+    .deznav .metismenu > li a > i {
+        position: relative;
+        left: -9px;
+    }
+
+    .notification_dropdown a{
+        position: absolute !important;
+        right: 60px !important;
+    }
+
+    .wallet-card {
+        border-radius: 0.75rem;
+        padding: 30px 25px;
+        background-size: 100%;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        /* width: 290px; */
+        height: 178px !important;
+    }
+
+    .wrapper2 .question {
+        padding: 20px 40px 20px 10px;
+    }
+
+    h2.title1.title3{
+        font-size: 24px !important;
+    }
+
+    .box-row .each-row{
+        padding: 4px 10px 10px 10px;
+    }
+    .box-row .each-row.col-9, .box-row .each-row.col-3{
+        margin-top: -12px;
+    }
+
+    
+
+    .subheading2{
+        font-size: 32px;
+    }
+
+    .hero-content::after {
+        right: -8% !important;
+    }
+
+    .single-counter .counter1{
+        font-size: 20px;
+    }
+
+    .single-counter p{
+        font-size: 12px;
+        margin-top: -5px;
+    }
+
+    .guide-left h2.section-title {
+        font-size: 35px;
+    }
+
+    .contact-info .boxs .icon {
+        height: 65px;
+        width: 65px;
+        line-height: 70px;
+    }
+
+    .contact-info .boxs .icon i {
+        font-size: 2em;
+    }
+
+    .contact-info .boxs a, .contact-info .boxs font{
+        padding-top: 18% !important;
+        padding-bottom: 30px;
+        height: 170px;
+    }
+
+    .contact-info .boxs1 font{
+        padding-top: 13% !important;
+        height: 210px;
+    }
+
+    .socials li{
+        margin-right: 25px;
+    }
+    .socials li:last-child{
+        margin-right: 0px;
+    }
+    .socials li i{
+        font-size: 3.3em;
+    }
+
+    .back_btns span{
+        top: 64%;
+    }
+
+    .fs-24{font-size: 21px !important; line-height: 29px;}
+    .fs-18{font-size: 14px !important; line-height: 20px;}
+}
+
+/*-------------- Start device screen 425 --------------*/
+
+@media screen and (max-width: 425px) {
+    .btn.trial-btn {
+        display: none;
+    }
+    .client-logo{
+        margin-bottom: 20px;
+    }
+    .client-logo img{
+        width: 90px;
+    }
+    .slicknav_btn {
+        background-color: #35d187;
+        border: 1px solid #35d187;
+    }
+    .hero-content {
+        padding: 50px 0;
+    }
+    .section-title {
+        padding: 0;
+    }
+    .benifit-card {
+        width: 100%;
+    }
+    .testimonial-card .content p {
+        font-size: 16px;
+    }
+    .testimonial-card:first-child .content {
+        margin-left: 0;
+    }
+    .testimonial-card:last-child .content {
+        margin-right: 0;
+    }
+    .testimonial-card {
+        display: block;
+    }
+    .testimonial-card .content{
+        text-align: center;
+    }
+    .testimonial-card .img {
+        width: 100px;
+        height: 100px;
+        display: table;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .testimonial-card .content h5 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffd35a;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .testimonial-card:last-child{
+        margin-top: 50px;
+    }
+    .testimonial-card:last-child .img{
+        margin-top: 15px;
+    }
+    .testimonial .owl-theme .owl-dots, .testimonial .owl-theme .owl-nav {
+        text-align: center;
+    }
+    .about-1::before{
+        display: none;
+    }
+    .about-1 .about-1-right {
+        padding-left: 0;
+        text-align: left !important;
+        padding-left: 0px;
+    }
+    .about-1-right h2{
+        font-size: 42px;
+    }
+    .contact h2.title1 {
+        font-size: 37px;
+    }
+
+    .contact{
+        padding: 0px 0 100px 0;
+    }
+
+    .breadcrumb-area {
+        padding: 70px 0 70px 0;
+    }
+
+    .logo .img-fluid{
+        width: 85px !important
+    }
+
+    .team-area .section-title h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .gallery__column1 {
+		display: block !important;
+		flex-direction: unset !important;
+		width: 100% !important;
+	}
+    .gallery {
+		display: block;
+	}
+
+    .guide img {
+        display: table;
+        margin: 0 auto 30px;
+    }
+    .guide-left,
+    .guide-right {
+        text-align: center !important;
+    }
+    .guide-right{
+        margin-bottom: 50px;
+    }
+    .guide-left {
+        padding-right: 0;
+    }
+    .guide .section-title {
+        text-align: left !important;
+    }
+    .faq-right {
+        padding-left: 0;
+    }
+    .faq-right h5 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .contact-form textarea.form-control {
+        height: 175px;
+    }
+    .footer-note p {
+        font-size: 16px;
+    }
+    .tabs-content .nav {
+        margin-bottom: 40px;
+    }
+
+    .crypto-payment-right h3{font-size: 37px; line-height: 45px;}
+
+    .guide-left .section-title {
+        font-size: 32px;
+    }
+
+    .guide-left {
+        text-align: left !important;
+    }
+
+    .footer-box input{
+        width: 97%;
+    }
+    
+    .footer-box button{
+        margin-left: -13.5%;
+    }
+}
+
+/*-------------- Start device screen 375 --------------*/
+
+@media screen and (max-width: 375px) {
+    .hero-content h1 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .hero-content p {
+        font-size: 18px;
+        margin: 30px 0;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+    .contact-form::after{
+        display: none;
+    }
+    .contact-form textarea.form-control {
+        margin-bottom: 30px;
+    }
+    .contact-form {
+        padding: 30px 15px 15px;
+        border-radius: 15px;
+    }
+    .guide::after{
+        display: none;
+    }
+    .faq-right p {
+        font-size: 16px;
+    }
+}
+
+/*-------------- Start device screen 320 --------------*/
+
+@media screen and (max-width: 320px) {}
