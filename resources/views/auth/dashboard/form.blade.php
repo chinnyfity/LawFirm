@@ -59,36 +59,36 @@
 											</p>
 										</div>
 										
-										<div class="col-md-9">
+										<div class="col-md-9 mb-xs-40">
 											<div class="row">
-												<div class="mb-3 col-md-6 pr-10">
+												<div class="mb-3 col-md-6 pr-10 pr-xs-15">
 													<label class="form-label">Firstname <span class="star">*</span></label> 
 													<input type="text" placeholder="Enter clients firstname" class="form-control fname" name="fname" style="text-transform: capitalize" value="{{ $client_details ? ucwords($client_details->firstname) : '' }}">
 												</div>
 
-												<div class="mb-3 col-md-6 pl-10">
+												<div class="mb-3 col-md-6 pl-10 pl-xs-15">
 													<label class="form-label">Lastname <span class="star">*</span></label>
 													<input type="text" placeholder="Enter clients lastname" class="form-control lname" name="lname" style="text-transform: capitalize" value="{{ $client_details ? ucwords($client_details->lastname) : '' }}">
 												</div>
 											</div>
 
 											<div class="row">
-												<div class="mb-3 col-md-6 pr-10">
+												<div class="mb-3 col-md-6 pr-10 pr-xs-15">
 													<label class="form-label">Email <span class="star">*</span></label>
 													<input type="email" placeholder="Enter clients email" class="form-control email" name="email" value="{{ $client_details ? strtolower($client_details->email) : '' }}">
 												</div>
-												<div class="mb-3 col-md-6 pl-10">
+												<div class="mb-3 col-md-6 pl-10 pl-xs-15">
 													<label class="form-label">Phone </label>
 													<input type="tel" placeholder="Enter clients phone" class="form-control phone" name="phone" value="{{ $client_details ? ucwords($client_details->phone) : '' }}">
 												</div>
 											</div>
 
 											<div class="row">
-												<div class="mb-3 col-md-6 pr-10">
+												<div class="mb-3 col-md-6 pr-10 pr-xs-15">
 													<label class="form-label">Primary Legal Counsel <span class="star">*</span></label>
 													<input type="text" placeholder="Enter Legal Counsel" class="form-control legal_counsel" name="legal_counsel" style="text-transform: capitalize" value="{{ $client_details ? ucwords($client_details->legal_counsel) : '' }}">
 												</div>
-												<div class="mb-3 col-md-6 pl-10">
+												<div class="mb-3 col-md-6 pl-10 pl-xs-15">
 													<label class="form-label">Date of Birth <span class="star">*</span></label>
 													<input type="date" class="form-control dob" name="dob" value="{{ $client_details ? date('Y-m-d', strtotime($client_details->dob)) : '' }}">
 												</div>

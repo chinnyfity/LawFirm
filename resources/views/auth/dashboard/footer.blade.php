@@ -1,10 +1,11 @@
 
+
 <div class="mobile_menu d-sm-none d-block">
 	<div class="row">
-		<div class="col-2 border-left"><a href="{{ route('add-clients') }}/"><i class="fa fa-plus-circle"></i> Add</a></div>
+		<div class="col-2 border-left {{ $page_name == 'add_clients' || $page_name == 'edit_clients' ? 'active' : '' }}"><a href="{{ route('add-clients') }}/"><i class="fa fa-plus-circle"></i> Add</a></div>
 		<div class="col-2"><a href="#"><i class="fa fa-bell"></i> Notify</a></div>
-		<div class="col-4" style="background:#A6D98A"><a href="{{ route('dashboard') }}"><i class="fa fa-home"></i> Home</a></div>
-		<div class="col-2"><a href="{{ route('add-clients') }}/"><i class="fa fa-eye"></i> View</a></div>
+		<div class="col-4 {{ $page_name == 'dashboard' ? 'active' : '' }}"><a href="{{ route('dashboard') }}"><i class="fa fa-home"></i> Home</a></div>
+		<div class="col-2 {{ $page_name == 'view_clients' ? 'active' : '' }}"><a href="{{ route('view-clients') }}/"><i class="fa fa-eye"></i> View</a></div>
 		<div class="col-2 border-right"><a href="#"><i class="fa fa-power-off"></i> Logout</a></div>
 	</div>
 </div>

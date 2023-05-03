@@ -7,7 +7,7 @@
 				<div class="card_">
 					<div class="card-body_ pl-0 pr-0 pt-xs-20">
 						@if($page_name == "view_clients")
-							<div class="col-lg-12">
+							<div class="col-lg-12 pb-xs-80">
 								<div class="card card-body pl-xs-5 pr-xs-5" style="border-radius:10px">
 									<p style="font-size:16px;color:#AE653E;">Touch the blue <b>+</b> circle to bring out all details</p>
 									<div class="table-responsive">
